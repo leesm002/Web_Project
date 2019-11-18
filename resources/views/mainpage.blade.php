@@ -84,9 +84,8 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            {{ $user }}
             @auth
-                @if ( $user == 'SM@naver.com' )
+                @if ( $email == 'SM@naver.com' )
                     <div class="top-center-logged-admin header">
                     <a href="https://blog.laravel.com">현지학기제</a>
                     <a href="https://blog.laravel.com">조원 소개</a>
